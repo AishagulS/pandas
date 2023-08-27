@@ -1,0 +1,6 @@
+run:
+	jupyter lab --port="8891"
+install:
+	pip install -r requirements.txt
+.PHONY:
+	run install
